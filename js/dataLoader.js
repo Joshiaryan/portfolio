@@ -35,6 +35,11 @@ function renderPersonalInfo(data) {
   document.querySelector('a[href^="tel"]').href = `tel:${data.phone}`;
   document.querySelector('a[href^="tel"] span:last-child').textContent = data.phone;
   document.querySelectorAll('footer .logo').forEach(el => el.textContent = data.logo);
+  
+  // Update footer social links
+  const socialLinks = document.querySelectorAll('footer .social-links a');
+  if (data.social.linkedin) socialLinks[0].href = data.social.linkedin;
+  if (data.social.github) socialLinks[1].href = data.social.github;
 }
 
 // Render about section
