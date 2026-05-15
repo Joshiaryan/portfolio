@@ -1,0 +1,14 @@
+{
+  "activities": [
+    {
+      "title": "Portfolio V2 Launch",
+      "description": "Just now • Professional Dark Theme",
+      "status": "active"
+    },
+    {
+      "title": "AcademiaGo Completion",
+      "description": "Recently • Full Stack Management App",
+      "status": "completed"
+    }
+  ]
+}

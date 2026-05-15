@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "AcademiaGo",
+      "subtitle": "Major Project (Final Year)",
+      "description": "A comprehensive School/College Management Application designed to streamline administration, student tracking, and academic workflows with multi-role JWT authentication.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React"
+      ],
+      "liveDemo": "#",
+      "github": "https://github.com/Joshiaryan/AcademiGo"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "skills": {
+    "development": [
+      "Java",
+      "Spring Boot",
+      "C/C++",
+      "REST APIs",
+      "React",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "tools": [
+      "Git",
+      "Postman",
+      "Teamwork",
+      "Critical Thinking",
+      "Time Management"
+    ],
+    "languages": [
+      "English (Fluent)",
+      "Hindi (Fluent)",
+      "Nepali (Fluent)",
+      "Punjabi (Fluent)"
+    ]
+  }
+}
