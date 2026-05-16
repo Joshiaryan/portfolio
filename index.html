@@ -13,8 +13,16 @@
   
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/space.css">
 </head>
 <body>
+
+  <!-- Space Background -->
+  <div class="space-background">
+    <div class="stars" id="stars"></div>
+    <div class="glow" style="top: 20%; left: 10%;"></div>
+    <div class="glow" style="top: 60%; right: 15%;"></div>
+  </div>
 
   <!-- Header & Navigation -->
   <header>
@@ -47,7 +55,7 @@
           </p>
           <div class="hero-buttons" style="display: flex; gap: 1rem;">
             <a href="#projects" id="heroViewProjects" class="btn btn-primary">View Projects</a>
-            <a href="resume.pdf" download class="btn btn-outline">Download Resume</a>
+            <a href="doc/Aryan Joshi resume.pdf" download="Bhojraj_Joshi_Resume.pdf" class="btn btn-outline">Download Resume</a>
           </div>
         </div>
         <div class="hero-visual" style="position: relative; display: flex; justify-content: center; align-items: center;">
@@ -275,6 +283,7 @@
     </div>
   </footer>
 
+  <script src="js/space.js"></script>
   <script src="js/dataLoader.js"></script>
   <script src="js/main.js"></script>
 </body>

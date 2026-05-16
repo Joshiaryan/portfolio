@@ -9,13 +9,13 @@ header {
   -webkit-backdrop-filter: var(--glass-blur);
   z-index: 1000;
   border-bottom: 1px solid var(--border-color);
-  transition: transform var(--transition-normal);
+  transition: var(--transition-normal);
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: 1.25rem var(--spacing-md);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,12 +25,12 @@ header {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-primary);
-  letter-spacing: 1px;
+  letter-spacing: -0.02em;
 }
 
 .nav-links {
   display: flex;
-  gap: var(--spacing-md);
+  gap: 0.5rem;
 }
 
 .nav-links a {
@@ -38,6 +38,7 @@ header {
   font-weight: 500;
   font-size: 0.95rem;
   position: relative;
+  padding: 0.5rem 1rem;
 }
 
 .nav-links a:hover,
@@ -48,17 +49,18 @@ header {
 .nav-links a::after {
   content: '';
   position: absolute;
-  bottom: -4px;
-  left: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 2px;
   background: var(--accent-color);
-  transition: width var(--transition-normal);
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover::after,
 .nav-links a.active::after {
-  width: 100%;
+  width: 60%;
 }
 
 .hamburger {
@@ -72,12 +74,12 @@ header {
 
 /* Main Layout */
 main {
-  margin-top: 80px; /* Account for fixed header */
+  margin-top: 80px;
 }
 
 .section {
   padding: var(--spacing-xl) var(--spacing-md);
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -88,16 +90,22 @@ main {
   align-items: center;
 }
 
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+}
+
 /* Footer */
 footer {
-  background: var(--bg-color-light);
+  background: var(--bg-secondary);
   border-top: 1px solid var(--border-color);
   padding: var(--spacing-lg) var(--spacing-md);
   text-align: center;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -110,12 +118,13 @@ footer {
 
 .social-links a {
   color: var(--text-secondary);
-  font-size: 1.5rem;
+  font-size: 0.95rem;
+  transition: var(--transition-fast);
 }
 
 .social-links a:hover {
   color: var(--accent-color);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .footer-text {
