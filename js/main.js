@@ -60,16 +60,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Hero Mouse Tracking Animation
-  const heroVisual = document.querySelector('.hero-visual');
-  if (heroVisual) {
-    document.addEventListener('mousemove', (e) => {
-      const { clientX, clientY } = e;
-      const x = (clientX / window.innerWidth - 0.5) * 30;
-      const y = (clientY / window.innerHeight - 0.5) * 30;
-      heroVisual.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-    });
-  }
+  // Hero Mouse Tracking Animation - Disabled
+  // const heroVisual = document.querySelector('.hero-visual');
+  // if (heroVisual) {
+  //   document.addEventListener('mousemove', (e) => {
+  //     const { clientX, clientY } = e;
+  //     const x = (clientX / window.innerWidth - 0.5) * 30;
+  //     const y = (clientY / window.innerHeight - 0.5) * 30;
+  //     heroVisual.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+  //   });
+  // }
 
   // Intersection Observer for scroll animations (fade-in)
   const observerOptions = {
