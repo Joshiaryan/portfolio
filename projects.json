@@ -11,9 +11,9 @@
       ],
       "liveDemo": "#",
       "github": "https://github.com/Joshiaryan/AcademiGo"
-    }
+    },
     {
-       "title": "weather-app",
+      "title": "weather-app",
       "subtitle": "Minor Project",
       "description": "A comprehensive weather application that provides real-time weather updates, forecasts, and interactive features for users to stay informed about current weather conditions and plan their activities accordingly.",
       "technologies": [

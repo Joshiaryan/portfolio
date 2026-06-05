@@ -237,7 +237,7 @@ function renderSkills(data) {
 
 // Render projects section
 function renderProjects(data) {
-  const projectsGrid = document.querySelector('#projects .grid-2');
+  const projectsGrid = document.getElementById('projectsGrid') || document.querySelector('#projects .grid-2');
   if (projectsGrid && data.projects) {
     projectsGrid.innerHTML = '';
     
