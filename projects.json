@@ -11,9 +11,9 @@
       ],
       "liveDemo": "#",
       "github": "https://github.com/Joshiaryan/AcademiGo"
-    },
-    {
-      "title": "weather-app",
+    }
+    ,
+       "title": "weather-app",
       "subtitle": "Minor Project",
       "description": "A comprehensive weather application that provides real-time weather updates, forecasts, and interactive features for users to stay informed about current weather conditions and plan their activities accordingly.",
       "technologies": [
@@ -21,7 +21,7 @@
         "Node.js",
         "Express"
       ],
-      "liveDemo": "https://vercel.com/aryanjoshi081-2503s-projects/weather-app",
+      "liveDemo": "https://weather-app-iota-dusky-28.vercel.app/",
       "github": "https://github.com/Joshiaryan/weather-app"
     }
   ]
