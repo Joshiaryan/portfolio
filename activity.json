@@ -1,13 +1,18 @@
 {
   "activities": [
     {
-      "title": "Portfolio V2 Launch",
-      "description": "Just now • Professional Dark Theme",
+      "title": "Portfolio V3 Launch",
+      "description": "Today • Professional Dark Space Theme",
       "status": "active"
     },
     {
+      "title": "Weather App Deployment",
+      "description": "Recently • Vercel Live Demo",
+      "status": "completed"
+    },
+    {
       "title": "AcademiaGo Completion",
-      "description": "Recently • Full Stack Management App",
+      "description": "2 weeks ago • Full Stack Management App",
       "status": "completed"
     }
   ]
